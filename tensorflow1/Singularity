@@ -4,6 +4,7 @@ From: nvidia/cuda:9.0-cudnn7-runtime-ubuntu16.04
 %labels
 
 %environment
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 export PATH=/bin:/usr/bin:/usr/local/bin:/usr/local/cuda/bin:
 export LC_ALL=C
 
